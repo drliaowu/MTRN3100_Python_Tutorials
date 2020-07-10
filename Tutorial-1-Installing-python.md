@@ -107,7 +107,7 @@ Type ```python``` or ``` python3 ```(If you have both python3 and python2) and p
 Make sure python is started, then run
 ```
 import cv2
-print(cv2.__version__)
+cv2.__version__
 ```
 which gives you '3.4.2'
 
