@@ -112,7 +112,7 @@ Make sure python is started, then run
 import cv2
 print(cv2.__version__)
 ```
-which gives you '4.3.0'
+which gives you '3.4.2'
 
 ## Step 6: Exit python
 
