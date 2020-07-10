@@ -2,7 +2,7 @@
 
 ## Aim
 
-This tutorial lists the necessary steps of installing python through anaconda, setting up conda virtual environment and installing required packages. We expect this tutorial to take about half an hour. Please tag all questions related to python setup with 'python' on moodle.
+This tutorial lists the necessary steps of installing python through anaconda, setting up conda virtual environment and installing required packages.
 
 ## Prerequisites
 
