@@ -63,7 +63,6 @@ conda deactivate
 To set up a virtual environment, run (in a terminal)
 ```
 conda create -n mtrn4110 python=3.7
-
 ```
 to create an environment called mtrn4110.
 
