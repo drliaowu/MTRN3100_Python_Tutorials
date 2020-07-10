@@ -101,9 +101,7 @@ pip install -r requirements.txt
 ```
 ## Step 4: Running python
 
-Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. You should see something like this:
- 
- ![Python running in a Command Prompt window.](python-terminal.PNG)
+Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. 
 
 ## Step 5: Test Opencv
 
