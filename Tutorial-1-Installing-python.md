@@ -42,8 +42,7 @@ for the code are installed globally on your machine. The virtual environment is 
 
 To set up a virtual environment, run (in a Command Prompt)
 ```
-conda create -n mtrn4110 python=3.6 (can be any version, depends on what version of python will 
-                                     compile with your code or github repo)
+conda create -n mtrn4110 python=3.7
 
 ```
 to create an environment called mtrn4110.
@@ -63,8 +62,7 @@ conda deactivate
 
 To set up a virtual environment, run (in a terminal)
 ```
-conda create -n mtrn4110 python=3.6 (can be any version, depends on what version of python will 
-                                     compile with your code or github repo)
+conda create -n mtrn4110 python=3.7
 
 ```
 to create an environment called mtrn4110.
@@ -80,14 +78,14 @@ source deactivate
 ```
 
 ## Step 3: Installing Dependencies
-First activate the virtual envinroment 'mtrn4110', and check whether you are using the correct 'pip' by running
+First activate the virtual envinroment 'mtrn4110' using the method mentioned above, and then check whether you are using the correct 'pip' by running
 
 ### Windows:
 ```
 #run in Command Prompt
 pip --version
 ```
-which will give you 'pip 19.0.3 from .....\AppData\Local\Continuum\anaconda3\lib\site-packages\pip (python 3.7)'
+which will give you 'pip 20.1.1 from .....\Aanaconda3\envs\mtrn4110\lib\site-packages\pip (python 3.7)'
 
 ### Ubuntu/MAC:
 ```
@@ -96,43 +94,48 @@ which pip
 ```
 which will give you '.../anaconda3/envs/mtrn4110/.../pip'
 
-To install required dependecies, download the repo from github, 'cd' to the folder and run
+Next, install required dependecies. Download the requirements.txt file to your project folder, 'cd' to the folder and run
 
 ```
 pip install -r requirements.txt
 ```
 ## Step 4: Running python
-1. Open a Command Prompt (Windows) from start menu/ Terminal (Ubuntu/Mac) by pressing Ctrl + Shift + T (?? check)
-2. Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. You should see something like this:
+
+Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. You should see something like this:
  
  ![Python running in a Command Prompt window.](python-terminal.PNG)
 
-3. Now you can type ```exit()``` and press Enter to get out of Python. Or you can just close the Command Prompt or Terminal window.
+## Step 5: Test Opencv
 
-## Step 4: Test Opencv
-
-start python in terminal(Ubuntu/MAC)/Command Prompt(Windows), run
+Make sure python is started, then run
 ```
 import cv2
 print(cv2.__version__)
 ```
-which gives you '3.4.3'
+which gives you '4.3.0'
 
-## Step 5: Jupyter Notebook
+## Step 6: Exit python
 
-Jupter Notebook is a web application which contains live code, similar to live script in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
+Now you can type ```exit()``` and press Enter to exit Python.
 
-git clone the [repo](https://github.com/drliaowu/MTRN4110_2019) and change dir to the repo folder and run in terminal(Ubuntu/Mac)/Command Prompt(Windows)
+## Step 7: Jupyter Notebook
+
+Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
+
+git clone the [repo](https://github.com/drliaowu/MTRN4110_20T2_Python_Tutorials) and change dir to the repo folder and run in terminal(Ubuntu/Mac)/Command Prompt(Windows) in the mtrn4110 environment
+
 ```
 jupyter notebook
 ```
-click the 'opencv_tutorial.ipynb' and run each section.
+click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb' and run each section.
+
+If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Command Prompt several times.
 
 ## Step 6: Run a python script
 
 To manage a large codebase easily, you can choose your favoriate python IDEs based on [this](https://www.guru99.com/python-ide-code-editor.html). 
 
-To run a python script, you can choose run it in terminal(Ubuntu/Mac)/Command Prompt(Windows), change directory to the location of your python script, run
+To run a python script, you can choose to run it in terminal(Ubuntu/Mac)/Command Prompt(Windows), change directory to the location of your python script, run
 ```
 python [script_name].py
 ```
