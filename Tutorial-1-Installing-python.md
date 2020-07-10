@@ -63,7 +63,6 @@ conda deactivate
 To set up a virtual environment, run (in a terminal)
 ```
 conda create -n mtrn4110 python=3.7
-
 ```
 to create an environment called mtrn4110.
 
@@ -101,16 +100,14 @@ pip install -r requirements.txt
 ```
 ## Step 4: Running python
 
-Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. You should see something like this:
- 
- ![Python running in a Command Prompt window.](python-terminal.PNG)
+Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. 
 
 ## Step 5: Test Opencv
 
 Make sure python is started, then run
 ```
 import cv2
-print(cv2.__version__)
+cv2.__version__
 ```
 which gives you '3.4.2'
 
