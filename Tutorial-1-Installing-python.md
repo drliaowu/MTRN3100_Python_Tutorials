@@ -4,10 +4,6 @@
 
 This tutorial lists the necessary steps of installing python through anaconda, setting up conda virtual environment and installing required packages.
 
-## Prerequisites
-
-None
-
 ## Step 1: Installing [Anaconda](https://www.anaconda.com/distribution/#linux)
 For vision part,  we recommend using the free Anaconda Python distribution, which provides an easy way for you to handle 
 package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.7.
