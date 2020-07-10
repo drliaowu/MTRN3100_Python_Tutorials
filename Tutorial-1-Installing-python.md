@@ -13,7 +13,7 @@ package dependencies. Please be sure to download the Python 3 version, which cur
 Download .exe [file](https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe) and install it.
 
 #### Recommend to do: 
-Check 'Add Anaconda to my PATH environment variable' and also 'Register Anaconda with my .....'
+Check 'Add Anaconda to my PATH environment variable' and also 'Register Anaconda with my .....'.
 If you are not doing this one, you will need to google how to add environment variable.
 
 ### MAC :
@@ -21,7 +21,7 @@ If you are not doing this one, you will need to google how to add environment va
 Download .pkg [file](https://repo.anaconda.com/archive/Anaconda3-2019.03-MacOSX-x86_64.pkg) and install it.
 
 #### Recommend to do: 
-Check 'Add Anaconda to my PATH environment variable' and also 'Register Anaconda with my .....'
+Check 'Add Anaconda to my PATH environment variable' and also 'Register Anaconda with my .....'.
 If you are not doing this one, you will need to google how to add environment variable.
 
 ### Ubuntu:
