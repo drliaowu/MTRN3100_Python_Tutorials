@@ -93,16 +93,23 @@ which pip
 ```
 which will give you '.../anaconda3/envs/mtrn4110/.../pip'
 
-Next, install required dependecies. Download the requirements.txt file to your project folder, 'cd' to the folder and run
+Next, install required dependecies. Download the tutorial [project](https://github.com/drliaowu/MTRN4110_20T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder and run (make sure the requirements.txt is in the current folder)
 
 ```
 pip install -r requirements.txt
 ```
-## Step 4: Running python
+
+## Step 4: Adding Virtual Environment to Jupyter Notebook
+Add your virtual environment to Jupyter by typing:
+```
+python -m ipykernel install --user --name=mtrn4110
+```
+
+## Step 5: Running python
 
 Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. 
 
-## Step 5: Test Opencv
+## Step 6: Test Opencv
 
 Make sure python is started, then run
 ```
@@ -111,11 +118,11 @@ cv2.__version__
 ```
 which gives you '3.4.2'
 
-## Step 6: Exit python
+## Step 7: Exit python
 
 Now you can type ```exit()``` and press Enter to exit Python.
 
-## Step 7: Jupyter Notebook
+## Step 8: Jupyter Notebook
 
 Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
 
@@ -128,7 +135,7 @@ click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb' and run each sectio
 
 If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Command Prompt several times.
 
-## Step 6: Run a python script
+## Step 9: Run a python script
 
 To manage a large codebase easily, you can choose your favoriate python IDEs based on [this](https://www.guru99.com/python-ide-code-editor.html). 
 
