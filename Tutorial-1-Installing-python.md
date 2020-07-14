@@ -93,7 +93,7 @@ which pip
 ```
 which will give you '.../anaconda3/envs/mtrn4110/.../pip'
 
-Next, install required dependecies. Download the tutorial [project](https://github.com/drliaowu/MTRN4110_20T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder and run (make sure the requirements.txt is in the current folder)
+Next, install required dependecies. Download the tutorial [project](https://github.com/drliaowu/MTRN4110_20T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../MTRN4110_20T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
 
 ```
 pip install -r requirements.txt
