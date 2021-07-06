@@ -12,7 +12,7 @@ package dependencies.
 
 Download .exe [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe) and install it.
 
-### MAC :
+### Mac :
 
 Download .pkg [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg) and install it.
 
@@ -53,9 +53,9 @@ If you want to exit from the environment, you can simply close the window, or ru
 conda deactivate
 ```
 
-### Ubuntu/Mac:
+### Mac/Ubuntu:
 
-To set up a virtual environment, run (in a terminal)
+To set up a virtual environment, open a Terminal and run
 ```
 conda create -n mtrn4110 python=3.7.10
 ```
@@ -63,35 +63,54 @@ to create an environment called mtrn4110.
 
 Then, to activate and enter the environment, run
 ```
-source activate mtrn4110
+conda activate mtrn4110
 ```
-To exit, you can simply close the window, or run
+If you want to exit from the environment, you can simply close the window, or run
 
 ```
-source deactivate
+conda deactivate
 ```
 
 ## Step 3: Installing Dependencies
-First activate the virtual envinroment 'mtrn4110' using the method mentioned above, and then check whether you are using the correct 'pip' by running
+First activate the virtual envinroment 'mtrn4110' using the method mentioned above
+```
+#run in Anaconda Prompt/Terminal
+conda activate mtrn4110
+```
+
+Then check whether you are using the correct version of 'pip' by running
 
 ### Windows:
 ```
-#run in Command Prompt
+#run in Anaconda Prompt
 pip --version
 ```
-which will give you 'pip 20.1.1 from .....\Aanaconda3\envs\mtrn4110\lib\site-packages\pip (python 3.7)'
+which will give you 'pip 21.1.3 from .....\Aanaconda3\envs\mtrn4110\lib\site-packages\pip (python 3.7)'
 
 ### Ubuntu/MAC:
 ```
-#run in terminal
+#run in Terminal
 which pip
 ```
 which will give you '.../anaconda3/envs/mtrn4110/.../pip'
 
-Next, install required dependecies. Download the tutorial [project](https://github.com/drliaowu/MTRN4110_20T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../MTRN4110_20T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
+Next, install the required dependencies. You can do this with two options:
+
+### Option 1:
+Download the tutorial [project](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../MTRN4110_21T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
 
 ```
 pip install -r requirements.txt
+```
+
+### Option 2:
+Mannually install the required dependencies:
+```
+pip install matplotlib==3.2.2
+pip install opencv-python==3.4.2.17
+pip install opencv-contrib-python==3.4.2.17
+pip install ipykernel==5.3.2
+pip install notebook==6.4.0
 ```
 
 ## Step 4: Adding Virtual Environment to Jupyter Notebook
@@ -115,18 +134,18 @@ which gives you '3.4.2'
 
 ## Step 7: Exit python
 
-Now you can type ```exit()``` and press Enter to exit Python.
+Now you can type in ```exit()``` and press Enter to exit Python.
 
 ## Step 8: Jupyter Notebook
 
 Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
 
-git clone the [repo](https://github.com/drliaowu/MTRN4110_20T2_Python_Tutorials) and change dir to the repo folder and run in terminal(Ubuntu/Mac)/Command Prompt(Windows) in the mtrn4110 environment
+git clone the [repo](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials) and change dir to the repo folder and run in Anaconda Prompt (Windows)/Terminal(Mac/Ubuntu)/ in the mtrn4110 environment
 
 ```
 jupyter notebook
 ```
-click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb' and run each section.
+click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to and run each section.
 
 If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Command Prompt several times.
 
