@@ -4,45 +4,41 @@
 
 This tutorial lists the necessary steps of installing python through anaconda, setting up conda virtual environment and installing required packages.
 
-## Step 1: Installing [Anaconda](https://www.anaconda.com/distribution/#linux)
-For vision part,  we recommend using the free Anaconda Python distribution, which provides an easy way for you to handle 
-package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.7.
+## Step 1: Installing Anaconda
+For the vision part,  we recommend using the free Anaconda Python distribution, which provides an easy way for you to handle 
+package dependencies.
 
 ### Windows:
 
-Download .exe [file](https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe) and install it.
-
-#### Recommend to do: 
-Check 'Add Anaconda to my PATH environment variable' and also 'Register Anaconda with my .....'.
-If you are not doing this one, you will need to google how to add environment variable.
+Download .exe [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe) and install it.
 
 ### MAC :
 
-Download .pkg [file](https://repo.anaconda.com/archive/Anaconda3-2019.03-MacOSX-x86_64.pkg) and install it.
-
-#### Recommend to do: 
-Check 'Add Anaconda to my PATH environment variable' and also 'Register Anaconda with my .....'.
-If you are not doing this one, you will need to google how to add environment variable.
+Download .pkg [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg) and install it.
 
 ### Ubuntu:
 
 ```
-wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
-chmod +x Anaconda3-2019.03-Linux-x86_64.sh
-sudo ./Anaconda3-2019.03-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+chmod +x Anaconda3-2021.05-Linux-x86_64.sh
+sudo ./Anaconda3-2021.05-Linux-x86_64.sh
 export PATH=/home/$NAME/anaconda3/bin:$PATH^C
 ```
 
 ## Step 2: Anaconda Virtual Environment
-Once you have Anaconda installed, it makes sense to create a virtual environment for the course.
-If you choose not to use a virtual environment, it is up to you to make sure that all dependencies 
-for the code are installed globally on your machine. The virtual environment is basically a room open for your specific coding project. Instead of using os-wide defined Python or Python packages, it aims to isolate your Python and its dependent packages from all projects that are hosted by your computer ([ref](https://medium.com/@pinareceaktan/what-is-this-virtual-environments-in-python-and-why-anyone-ever-needs-them-7e3e682f9d2)).
+Once you have Anaconda installed, it is highly recommended to create a virtual environment for the course.
+
+If you use Python for different projects, they may require different versions of Python and/or other modules.
+Creating a virtual environment will allow you to install specific versions of Python packages for the course project, without crashing with the dependencies of other projects.
+For more details about what the virtual environment is and why it is highly recommended, you can refer to [this page](https://medium.com/@pinareceaktan/what-is-this-virtual-environments-in-python-and-why-anyone-ever-needs-them-7e3e682f9d2).
+
+If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine.
 
 ### Windows:
 
-To set up a virtual environment, run (in a Command Prompt)
+To set up a virtual environment, open Anaconda Prompt and run
 ```
-conda create -n mtrn4110 python=3.7
+conda create -n mtrn4110 python=3.7.10
 
 ```
 to create an environment called mtrn4110.
@@ -51,18 +47,17 @@ Then, to activate and enter the environment, run
 ```
 conda activate mtrn4110
 ```
-To exit, you can simply close the window, or run
+If you want to exit from the environment, you can simply close the window, or run
 
 ```
 conda deactivate
 ```
-**Note: Conda environment activation seems not working in PowerShell directly. If you choose to use PowerShell, please follow [this](https://github.com/conda/conda/issues/8428#issuecomment-474867193).**
 
 ### Ubuntu/Mac:
 
 To set up a virtual environment, run (in a terminal)
 ```
-conda create -n mtrn4110 python=3.7
+conda create -n mtrn4110 python=3.7.10
 ```
 to create an environment called mtrn4110.
 
