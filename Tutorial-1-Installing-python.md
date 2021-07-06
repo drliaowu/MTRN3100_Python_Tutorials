@@ -145,20 +145,10 @@ git clone the [repo](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials)
 ```
 jupyter notebook
 ```
-click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to and run each section.
+click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to mtrn4110, and run each section.
 
-If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Command Prompt several times.
-
-## Step 9: Run a python script
-
-To manage a large codebase easily, you can choose your favoriate python IDEs based on [this](https://www.guru99.com/python-ide-code-editor.html). 
-
-To run a python script, you can choose to run it in terminal(Ubuntu/Mac)/Command Prompt(Windows), change directory to the location of your python script, run
-```
-python [script_name].py
-```
-Or run it in the IDE.
+If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Anaconda Prompt several times.
 
 ## Summary
 
-Now you should have Python installed and able to run python and jupyter notebook.
+Now you should have Python installed and be able to run python and jupyter notebook.
