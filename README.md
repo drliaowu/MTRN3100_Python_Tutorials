@@ -1,5 +1,7 @@
-# MTRN4110_20T2_Python_Tutorials
+# MTRN4110_21T2_Python_Tutorials
 
-Python tutorials for MTRN4110 20T2
+Python tutorials for MTRN4110 21T2
+
+Updated by Leo Wu 2021
 
 Developed by Annie Wang 2020
