@@ -12,7 +12,7 @@ package dependencies.
 
 Download .exe [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe) and install it.
 
-### Mac :
+### macOS :
 
 Download .pkg [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg) and install it.
 
@@ -48,7 +48,7 @@ If you want to exit from the environment, you can simply close the window, or ru
 conda deactivate
 ```
 
-### Mac/Ubuntu:
+### macOS/Ubuntu:
 
 To set up a virtual environment, open a Terminal and run
 ```
@@ -82,7 +82,7 @@ pip --version
 ```
 which will give you 'pip 21.1.3 from .....\Aanaconda3\envs\mtrn4110\lib\site-packages\pip (python 3.7)'
 
-### Ubuntu/MAC:
+### macOS/Ubuntu:
 ```
 #run in Terminal
 which pip
@@ -116,9 +116,9 @@ python -m ipykernel install --user --name=mtrn4110
 
 ## Step 5: Running python
 
-Type ```python``` or ``` python3 ```(If you have both python3 and python2) and press Enter. 
+Type ```python``` or ``` python3 ```(if you have both python3 and python2 installed) and press Enter. 
 
-## Step 6: Test Opencv
+## Step 6: Test OpenCV
 
 Make sure python is started, then run
 ```
@@ -129,18 +129,18 @@ which gives you '3.4.2'
 
 ## Step 7: Exit python
 
-Now you can type in ```exit()``` and press Enter to exit Python.
+Now you can type in ```exit()```  or ```quit()``` and press Enter to exit Python.
 
 ## Step 8: Jupyter Notebook
 
 Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
 
-git clone the [repo](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials) and change dir to the repo folder and run in Anaconda Prompt (Windows)/Terminal(Mac/Ubuntu)/ in the mtrn4110 environment
+Git clone the [repo](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials). Activate the mtrn4110 environment in Anaconda Prompt (Windows) / Terminal (macOS/Ubuntu) and change dir to the repo folder, then run
 
 ```
 jupyter notebook
 ```
-click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to mtrn4110, and run each section.
+Click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to mtrn4110, and run each section.
 
 If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Anaconda Prompt several times.
 
