@@ -18,12 +18,7 @@ Download .pkg [file](https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-
 
 ### Ubuntu:
 
-```
-wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
-chmod +x Anaconda3-2021.05-Linux-x86_64.sh
-sudo ./Anaconda3-2021.05-Linux-x86_64.sh
-export PATH=/home/$NAME/anaconda3/bin:$PATH^C
-```
+Follow the installation instructions on [web](https://docs.anaconda.com/anaconda/install/linux/).
 
 ## Step 2: Anaconda Virtual Environment
 Once you have Anaconda installed, it is highly recommended to create a virtual environment for the course.
