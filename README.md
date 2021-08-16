@@ -1,4 +1,4 @@
-# MTRN4110_21T2_Python_Tutorials
+# MTRN4110_Python_Tutorials
 
 Python tutorials for MTRN4110 21T2
 
