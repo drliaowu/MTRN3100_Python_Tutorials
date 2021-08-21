@@ -2,9 +2,9 @@
 
 Python tutorials for MTRN4110 21T2
 
-Updated by Leo Wu 2021
+Updated by Leo Wu, 2021
 
-Developed by Annie Wang 2020
+Created by Annie Wang, 2020
 
 ### Content
 
