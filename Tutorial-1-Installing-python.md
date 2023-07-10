@@ -33,14 +33,14 @@ If you choose not to use a virtual environment, it is up to you to make sure tha
 
 To set up a virtual environment, open Anaconda Prompt and run
 ```
-conda create -n mtrn4110 python=3.7.10
+conda create -n mtrn3100 python=3.7.10
 
 ```
-to create an environment called mtrn4110.
+to create an environment called mtrn3100.
 
 Then, to activate and enter the environment, run
 ```
-conda activate mtrn4110
+conda activate mtrn3100
 ```
 If you want to exit from the environment, you can simply close the window, or run
 
@@ -52,13 +52,13 @@ conda deactivate
 
 To set up a virtual environment, open a Terminal and run
 ```
-conda create -n mtrn4110 python=3.7.10
+conda create -n mtrn3100 python=3.7.10
 ```
-to create an environment called mtrn4110.
+to create an environment called mtrn3100.
 
 Then, to activate and enter the environment, run
 ```
-conda activate mtrn4110
+conda activate mtrn3100
 ```
 If you want to exit from the environment, you can simply close the window, or run
 
@@ -67,10 +67,10 @@ conda deactivate
 ```
 
 ## Step 3: Installing Dependencies
-First activate the virtual envinroment 'mtrn4110' using the method mentioned above
+First activate the virtual envinroment 'mtrn3100' using the method mentioned above
 ```
 #run in Anaconda Prompt/Terminal
-conda activate mtrn4110
+conda activate mtrn3100
 ```
 
 Then check whether you are using the correct version of 'pip' by running
@@ -80,19 +80,19 @@ Then check whether you are using the correct version of 'pip' by running
 #run in Anaconda Prompt
 pip --version
 ```
-which will give you 'pip 21.1.3 from .....\Aanaconda3\envs\mtrn4110\lib\site-packages\pip (python 3.7)'
+which will give you 'pip 21.1.3 from .....\Aanaconda3\envs\mtrn3100\lib\site-packages\pip (python 3.7)'
 
 ### macOS/Ubuntu:
 ```
 #run in Terminal
 which pip
 ```
-which will give you '.../anaconda3/envs/mtrn4110/.../pip'
+which will give you '.../anaconda3/envs/mtrn3100/.../pip'
 
 Next, install the required dependencies. You can do this with two options:
 
 ### Option 1:
-Download the tutorial [project](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../MTRN4110_21T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
+Download the tutorial [project](https://github.com/drliaowu/mtrn3100_21T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../mtrn3100_21T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
 
 ```
 pip install -r requirements.txt
@@ -111,7 +111,7 @@ pip install notebook==6.4.0
 ## Step 4: Adding Virtual Environment to Jupyter Notebook
 Add your virtual environment to Jupyter by typing:
 ```
-python -m ipykernel install --user --name=mtrn4110
+python -m ipykernel install --user --name=mtrn3100
 ```
 
 ## Step 5: Running python
@@ -135,12 +135,12 @@ Now you can type in ```exit()```  or ```quit()``` and press Enter to exit Python
 
 Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
 
-Git clone the [repo](https://github.com/drliaowu/MTRN4110_21T2_Python_Tutorials). Activate the mtrn4110 environment in Anaconda Prompt (Windows) / Terminal (macOS/Ubuntu) and change dir to the repo folder, then run
+Git clone the [repo](https://github.com/drliaowu/mtrn3100_21T2_Python_Tutorials). Activate the mtrn3100 environment in Anaconda Prompt (Windows) / Terminal (macOS/Ubuntu) and change dir to the repo folder, then run
 
 ```
 jupyter notebook
 ```
-Click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to mtrn4110, and run each section.
+Click the 'Tutorial-2-Variables-Boolean-and-Operators.ipynb', change the kernel to mtrn3100, and run each section.
 
 If you want to quit jupyter notebook, you can close the page and type "cltr + c" in the Anaconda Prompt several times.
 
