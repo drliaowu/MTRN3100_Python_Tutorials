@@ -1,6 +1,6 @@
 # MTRN3100_Python_Tutorials
 
-Python tutorials for MTRN3100 23T2
+Python tutorials for MTRN3100
 
 Updated by Leo Wu, 2021
 
