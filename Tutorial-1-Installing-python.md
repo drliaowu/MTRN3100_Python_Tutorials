@@ -135,7 +135,7 @@ Now you can type in ```exit()```  or ```quit()``` and press Enter to exit Python
 
 Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
 
-Git clone the [repo](https://github.com/drliaowu/mtrn3100_21T2_Python_Tutorials). Activate the mtrn3100 environment in Anaconda Prompt (Windows) / Terminal (macOS/Ubuntu) and change dir to the repo folder, then run
+Git clone the [repo](https://github.com/drliaowu/MTRN3100_Python_Tutorials/tree/master). Activate the mtrn3100 environment in Anaconda Prompt (Windows) / Terminal (macOS/Ubuntu) and change dir to the repo folder, then run
 
 ```
 jupyter notebook
