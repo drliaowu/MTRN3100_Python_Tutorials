@@ -92,7 +92,7 @@ which will give you '.../anaconda3/envs/mtrn3100/.../pip'
 Next, install the required dependencies. You can do this with two options:
 
 ### Option 1:
-Download the tutorial [project](https://github.com/drliaowu/mtrn3100_21T2_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../mtrn3100_21T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
+Download the tutorial [project](https://github.com/drliaowu/MTRN3100_Python_Tutorials) containing the requirements.txt file, 'cd' to the project folder (.../mtrn3100_21T2_Python_Tutorials) and run (make sure the requirements.txt is in the current folder)
 
 ```
 pip install -r requirements.txt
