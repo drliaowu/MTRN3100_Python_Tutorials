@@ -3,3 +3,5 @@ opencv-python==3.4.2.17
 opencv-contrib-python==3.4.2.17
 ipykernel==5.3.2
 notebook==6.4.1
+import heapq
+from collections import deque
