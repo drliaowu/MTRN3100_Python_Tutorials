@@ -33,7 +33,7 @@ If you choose not to use a virtual environment, it is up to you to make sure tha
 
 To set up a virtual environment, open Anaconda Prompt and run
 ```
-conda create -n mtrn3100 python=3.7.10
+conda create -n mtrn3100 python
 
 ```
 to create an environment called mtrn3100.
@@ -52,7 +52,7 @@ conda deactivate
 
 To set up a virtual environment, open a Terminal and run
 ```
-conda create -n mtrn3100 python=3.7.10
+conda create -n mtrn3100 python
 ```
 to create an environment called mtrn3100.
 
@@ -73,22 +73,6 @@ First activate the virtual envinroment 'mtrn3100' using the method mentioned abo
 conda activate mtrn3100
 ```
 
-Then check whether you are using the correct version of 'pip' by running
-
-### Windows:
-```
-#run in Anaconda Prompt
-pip --version
-```
-which will give you 'pip 21.1.3 from .....\Aanaconda3\envs\mtrn3100\lib\site-packages\pip (python 3.7)'
-
-### macOS/Ubuntu:
-```
-#run in Terminal
-which pip
-```
-which will give you '.../anaconda3/envs/mtrn3100/.../pip'
-
 Next, install the required dependencies. You can do this with two options:
 
 ### Option 1:
@@ -101,11 +85,10 @@ pip install -r requirements.txt
 ### Option 2:
 Mannually install the required dependencies:
 ```
-pip install matplotlib==3.2.2
-pip install opencv-python==3.4.2.17
-pip install opencv-contrib-python==3.4.2.17
-pip install ipykernel==5.3.2
-pip install notebook==6.4.0
+pip install matplotlib
+pip install opencv-python
+pip install ipykernel
+pip install notebook
 ```
 
 ## Step 4: Adding Virtual Environment to Jupyter Notebook
@@ -114,24 +97,7 @@ Add your virtual environment to Jupyter by typing:
 python -m ipykernel install --user --name=mtrn3100
 ```
 
-## Step 5: Running python
-
-Type ```python``` or ``` python3 ```(if you have both python3 and python2 installed) and press Enter. 
-
-## Step 6: Test OpenCV
-
-Make sure python is started, then run
-```
-import cv2
-cv2.__version__
-```
-which gives you '3.4.2'
-
-## Step 7: Exit python
-
-Now you can type in ```exit()```  or ```quit()``` and press Enter to exit Python.
-
-## Step 8: Jupyter Notebook
+## Step 5: Jupyter Notebook
 
 Jupter Notebook is a web application which contains live code, similar to live scripts in Matlab. This allows you to edit/run code in the browser and check the results of computations attached to the code which generated them. This is easier when your work needs a bit of fine-tunning. 
 
